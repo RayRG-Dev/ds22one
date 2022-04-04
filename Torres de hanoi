@@ -1,0 +1,61 @@
+let torre1 = [3,2,1];
+ console.log(torre1);
+  let torre2 = [];
+  let torre3 = []; 
+  let aux;
+ 
+  aux = torre1[2];
+  torre3[0] = aux;
+  delete torre1[2];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux=torre1[1];
+  torre2[0]=aux;
+  delete torre1[1];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux = torre3[0];
+  torre2[1] =aux; 
+  delete torre3[0];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux = torre1[0];
+  torre3[0] =aux; 
+  delete torre1[0];
+ 
+   console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux = torre2[1];
+  torre1[0] =aux; 
+  delete torre2[1];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux = torre2[0];
+  torre3[1] =aux; 
+  delete torre2[0];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
+ 
+  aux = torre1[0];
+  torre3[2] =aux; 
+  delete torre1[0];
+ 
+  console.log(torre1);
+  console.log(torre2);
+  console.log(torre3);
